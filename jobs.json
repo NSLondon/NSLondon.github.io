@@ -4,11 +4,13 @@
 		{
 			"title" : "ninja",
 			"company" : "awesomeCorp",
+			"location" : "London",
 			"contact" : "someone@awesomecorp.com"
 		},
 		{
 			"title" : "wizard",
 			"company" : "big tech",
+			"location" : "London",
 			"contact" : "wizardry@bigtech.com"
 		}
 
