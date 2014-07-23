@@ -1,3 +1,16 @@
 {
-	"jobs" : [{"title" : "someTitle"}]
+	"jobs" : 
+	[
+		{
+			"title" : "ninja",
+			"company" : "awesomeCorp",
+			"contact" : "someone@awesomecorp.com"
+		},
+		{
+			"title" : "wizard",
+			"company" : "big tech",
+			"contact" : "wizardry@bigtech.com"
+		}
+
+	]
 }
