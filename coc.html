@@ -29,7 +29,7 @@
       }
 
       .venue {
-          clear: both;
+        clear: both;
       }
 
       .venue h4 {
@@ -38,6 +38,30 @@
 
       .highlight {
         background-color: #ffa !important;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        h1, h2 {
+          color:white;
+        }
+        body {
+          color:darkgray;
+        }
+        body {
+          background-color: black;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        h1, h2 {
+          color:black;
+        } 
+        body {
+          color:#333333;
+        } 
+        body {
+          background-color: white;
+        }
       }
 
       a {
@@ -55,7 +79,7 @@
   <body>
   	<div class="wrapper">
       <header>
-        <h1>Code of Conduct</h1>
+      <h1>Code of Conduct</h1>
       </header>
 
       <section>
@@ -76,8 +100,9 @@
 
       <footer>
         <p><a href="https://nslondon.com">Home</a></p>
-        <p><small>The Apple logo is a trademark of Apple Inc., registered in the U.S. and other countries and regions.</small></p>
-        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>The Apple logo is a trademark of Apple Inc., registered in the U.S. and other countries and regions.</small>
+        <br>
+        <small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
 
     </div>
