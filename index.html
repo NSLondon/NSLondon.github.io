@@ -66,6 +66,20 @@
       body {
         font:15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* for 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+      }
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
     </style>
     
     <!-- Icons -->
@@ -166,14 +180,14 @@ while(x=eval(x));
         <h1>2025.1 at Goodnotes</h1>
 
         <h2>Aleksandr Filimonov — What Disney Taught Us About iOS Animations</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/ECTrcZX8OEk">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ECTrcZX8OEk"></iframe>
+        </div></p>
 
         <h2>Bret Cheng — How Goodnotes serves more than 25M monthly active users with local-first architecture</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/LtYt6uVH6iM">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/LtYt6uVH6iM"></iframe>
+        </div></p>
 
         <br>
 
@@ -196,19 +210,19 @@ while(x=eval(x));
         <h1>2024.5 at NewDay</h1>
 
         <h2>Juan Marin & Sergio Padron — How we've built and scaled 17 apps from 1 codebase at NewDay</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/hpspkFmpRIg">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/hpspkFmpRIg"></iframe>
+        </div></p>
 
         <h2>Raul Menezes — Scaling Bumble's Design System: The Bumble-SwiftUI Solution</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/HAH1VclQm0I">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/HAH1VclQm0I"></iframe>
+        </div></p>
 
         <h2>Andrea Antonioni — The Evolution of Yelp iOS Search</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/QHtK9Jgc5ac">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/QHtK9Jgc5ac"></iframe>
+        </div></p>
           <br>
 
         <h1>It's Glowtime at Deloitte Digital</h1>
@@ -219,19 +233,19 @@ while(x=eval(x));
         <h1>2024.4 at Google</h1>
 
         <h2>Peter Friese — How I used Firebase, Gemini, Genkit, and Siri to build a second brain</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/psvParxPomQ">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/psvParxPomQ"></iframe>
+        </div></p>
 
         <h2>Jacob Bartlett — My Toddler Loves Planes, So I Built Her A Radar</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/bRuvPHZkHrw">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/bRuvPHZkHrw"></iframe>
+        </div></p>
 
         <h2>Ross Butler — Synthetic Testing in Server-Side Swift</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/VA1hCFZS_Fg">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/VA1hCFZS_Fg"></iframe>
+        </div></p>
           <br>
 
         <h1>WWDC24 at Deloitte Digital</h1>
@@ -242,19 +256,19 @@ while(x=eval(x));
         <h1>2024.3 at Capital One</h1>
 
         <h2>Anastasia Petrova — Hidden engineering costs and complexities of A/B testing</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/GyJkn4GMiE8">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/GyJkn4GMiE8"></iframe>
+        </div></p>
           
         <h2>Adam Fallon — Trainline's path to production with Gen AI</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/rL0bKWH1U60">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/rL0bKWH1U60"></iframe>
+        </div></p>
           
         <h2>Richard Das — Engineering Fitness with AirPods & Pushups</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/zSPrffdxxuY">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/zSPrffdxxuY"></iframe>
+        </div></p>
           <br>
 
         <h1>2024.2 at Monzo</h1>
@@ -267,14 +281,14 @@ while(x=eval(x));
         <h1>2024.1 at Trainline</h1>
 
         <h2>Phil Nash — Rewiring your brain, with Test Driven Thinking</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/xfMmfwXourM">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/xfMmfwXourM"></iframe>
+        </div></p>
           
         <h2>Marcel Mierzejewski — Redefining Crypto in Revolut 10: A Case of Pragmatic iOS Development</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/4EFAnKlEwHI">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/4EFAnKlEwHI"></iframe>
+        </div></p>
           <br>
         
         <hr>
@@ -287,9 +301,9 @@ while(x=eval(x));
         
         <h2>Nikita Maidanov — How to Get More In-App Subscriptions</h2>
 
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/nYbTJersudk">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/nYbTJersudk"></iframe>
+        </div></p>
           <br>
         
         <h1>Wonderlust at Deloitte Digital</h1>
@@ -300,50 +314,50 @@ while(x=eval(x));
         <h1>2023.4 at Ford</h1>
 
         <h2>Simon Leigh — Ditto: Next-Level Mobile Connectivity, Offline-First Database and Peer-to-Peer Sync for Uninterrupted App Performance</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/0xZzsfk4Zqc">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/0xZzsfk4Zqc"></iframe>
+        </div></p>
 
         <h2>Haz Hubble — Building an AI concierge</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/AEnUfLlxAS0">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/AEnUfLlxAS0"></iframe>
+        </div></p>
         
         <h2>Tony Short — The First Thing That is Useful</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/ohrRlFY7M5c">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ohrRlFY7M5c"></iframe>
+        </div></p>
           <br>
 
         <h1>2023.3 at Monzo</h1>
 
         <h2>Jonathan Crooke — Scaling iOS at Bumble</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/_9VZb1m_EVQ">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/_9VZb1m_EVQ"></iframe>
+        </div></p>
         
         <h2>Freddie Nicholson — Swift Playgrounds in the classroom with Bouncer</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/FUb5gluUbRY">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/FUb5gluUbRY"></iframe>
+        </div></p>
 
         <h2>Jacob Bartlett — SwiftUI at scale</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/oDhxMpNaIXw">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/oDhxMpNaIXw"></iframe>
+        </div></p>
           <br>
 
         <h1>2023.2 at AWS</h1>
 
         <h2>Sebastien Stormacq — Swift, Serverside, Serverless</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/ZLL4_GnlGWI">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/ZLL4_GnlGWI"></iframe>
+        </div></p>
         
         <h2>Andrea Scuderi — Serverless in Swift Like a Breeze</h2>
-        <p><iframe width="500" height="282"
-          src="https://www.youtube.com/embed/D4qSv_fhQIo">
-          </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/D4qSv_fhQIo"></iframe>
+        </div></p>
           <br>
 
         <h1>WWDC23 at Deloitte Digital</h1>
@@ -354,14 +368,14 @@ while(x=eval(x));
         <h1>2023.1 at Just Eat</h1>
 
         <h2>Tanin Rojanapiansatith — iOS Accessibility — Why/What/How?</h2>
-        <p><iframe width="500" height="282"
-        src="https://www.youtube.com/embed/RlmRXAn9upg">
-        </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/RlmRXAn9upg"></iframe>
+        </div></p>
           
         <h2>Pete Heslop — The Smart Creatives</h2>
-        <p><iframe width="500" height="282"
-        src="https://www.youtube.com/embed/UXO-Lkfdoa4">
-        </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/UXO-Lkfdoa4"></iframe>
+        </div></p>
           <br>
         
         <hr>
@@ -369,14 +383,14 @@ while(x=eval(x));
         <h1>2022.3 at Bumble</h1>
 
         <h2>Nikita Mounier — The Composable Architecture… as a high school student</h2>
-        <p><iframe width="500" height="282"
-        src="https://www.youtube.com/embed/jM2BZqFdVdA">
-        </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/jM2BZqFdVdA"></iframe>
+        </div></p>
           
         <h2>Anurag Ajwani — Modular iOS</h2>
-        <p><iframe width="500" height="282"
-        src="https://www.youtube.com/embed/EqfK2vekYjs">
-        </iframe></p>
+        <p><div class="video-container">
+        <iframe src="https://www.youtube.com/embed/EqfK2vekYjs"></iframe>
+        </div></p>
           <br>
           
         <h1>2022.2 at Cuvva</h1>
