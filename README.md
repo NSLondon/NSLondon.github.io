@@ -13,3 +13,7 @@ Join us at
 + [Mastodon](https://mastodon.social/@NSLondonMeetup)
 + [LinkedIn](https://uk.linkedin.com/company/nslondon)
 + [YouTube](https://www.youtube.com/channel/UCegKOBw05hygFj0eJB-4lPw)
+
+## License
+
+This website's source code is licensed under the [MIT License](./LICENSE).
